@@ -27,10 +27,9 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
+        <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={require("../../assets/images/my-logo.png")} alt="logo" style={{ height: '40px', marginRight: '10px' }} />
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label

@@ -1,90 +1,90 @@
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
+/* Change colors in this file to style to your needs on a global level. */
 
 // button colors
-$buttonColor: #007BFF;
-$buttonHover: #0056b3;
-$topButtonHover: #000;
+$buttonColor: #00F0FF; 
+$buttonHover: #FF007F; 
+$topButtonHover: #B829EA; 
 
-// text colors light theme
-$titleColor: #1a1a1a;
-$textColor: #333333;
-$subTitle: #555555;
-$cardSubtitle: #666666;
+// text colors light theme (making light theme also dark for futuristic feel)
+$titleColor: #FFFFFF;
+$textColor: #E0E2E4;
+$subTitle: #A0AAB2;
+$cardSubtitle: #8A9AAB;
 $talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
+$blogCardTitleColor: #FFFFFF;
 
 // text color dark theme
-$textColorDark: #ffffff;
+$textColorDark: #00F0FF;
 
 // toggle switch colors
-$toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
+$toggleCheck: #00F0FF;
+$toggleSwitchSliderBG: #333333;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubRepoCardLanguageColorBG: #B829EA;
+$githubRepoCardColor: #A0AAB2;
+$githubRepoCardRepoCardStatsColor: #8A9AAB;
+$githubRepoCardRepoNameColor: #FFFFFF;
+$githubProfileCardLocationTS: #00F0FF;
+$githubProfileCardBorder: #FF007F;
 
-// light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
+// light background colors (made dark for cyberpunk feel)
+$lightBackground1: #0B0C10;
+$lightBackground2: #1F2833;
+$lightBackground3: #1A1A1D;
+$blogCardContainerColor: #2A2A2E;
+
 // dark background colors
-$darkBackground: #171c28;
+$darkBackground: #050505;
 
 // light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
+$lightBoxShadowDark: 0px 0px 15px rgba(0, 240, 255, 0.3);
+$lightBoxShadow: 0px 0px 10px rgba(0, 240, 255, 0.2);
+$lightBoxShadowDarker: 0px 0px 25px rgba(255, 0, 127, 0.4);
 
 // dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
+$darkBoxShadow: #00F0FF;
+$darkBoxShadow2: #FF007F;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+  rgba(11, 12, 16, 0.8),
+  rgba(31, 40, 51, 0.6)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+  135deg,
+  #00F0FF 0%,
+  #B829EA 100%
 );
 
 // borders
-$progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$progressBarBackground: #1F2833;
+$lightBorder1: rgba(0, 240, 255, 0.3);
+$educationCardBorder: #00F0FF;
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$headerHoverBG: #f4f4f4;
-$contactDetailHoverTS: #b5b5b5;
+$achievementCertificateCardHoverDark: rgba(0, 240, 255, 0.2);
+$blogCardHoverSmallColor: rgba(255, 0, 127, 0.8);
+$headerHoverBG: rgba(0, 240, 255, 0.1);
+$contactDetailHoverTS: #00F0FF;
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
-$appHeaderBG: #282c34;
+$progressBarSpanBG: #00F0FF;
+$iconBackground: #1F2833;
+$appHeaderBG: #0B0C10;
 
 // misc colors
-$skillsColor: #007BFF;
-$appLink: #007BFF;
+$skillsColor: #00F0FF;
+$appLink: #FF007F;
 
 // social media icons
-$faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #333;
-$gitlab: #fca326;
-$google: #ea4335;
-$twitter: #1da1f2;
-$medium: #000;
-$stackoverflow: #f48024;
-$instagram: #c13584;
-$kaggle: #20beff;
+$faceBook: #00F0FF;
+$linkedin: #00F0FF;
+$github: #FFFFFF;
+$gitlab: #FF007F;
+$google: #FF007F;
+$twitter: #00F0FF;
+$medium: #FFFFFF;
+$stackoverflow: #FF007F;
+$instagram: #B829EA;
+$kaggle: #00F0FF;

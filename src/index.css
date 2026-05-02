@@ -19,12 +19,19 @@ code {
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #0B0C10;
+  color: #C5C6C7;
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 28px 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, .logo-name {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 /* Media Query */
 @media (max-width: 1380px) {
