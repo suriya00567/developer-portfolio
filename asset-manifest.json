@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.695a3abd.css",
-    "main.js": "/developer-portfolio/static/js/main.99435265.js",
+    "main.css": "/developer-portfolio/static/css/main.ad5dacc6.css",
+    "main.js": "/developer-portfolio/static/js/main.932ac104.js",
     "static/media/pixel-cat.png": "/developer-portfolio/static/media/pixel-cat.ac10287be5a03c92913b.png",
     "static/media/Montserrat-Regular.ttf": "/developer-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/developer-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -14,11 +14,11 @@
     "static/media/saayaHealthLogo.webp": "/developer-portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/developer-portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/developer-portfolio/index.html",
-    "main.695a3abd.css.map": "/developer-portfolio/static/css/main.695a3abd.css.map",
-    "main.99435265.js.map": "/developer-portfolio/static/js/main.99435265.js.map"
+    "main.ad5dacc6.css.map": "/developer-portfolio/static/css/main.ad5dacc6.css.map",
+    "main.932ac104.js.map": "/developer-portfolio/static/js/main.932ac104.js.map"
   },
   "entrypoints": [
-    "static/css/main.695a3abd.css",
-    "static/js/main.99435265.js"
+    "static/css/main.ad5dacc6.css",
+    "static/js/main.932ac104.js"
   ]
 }
